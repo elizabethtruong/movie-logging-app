@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FAQ — Movie Log</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="faq">
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <nav id="siteNav" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top border-bottom"></nav>
+
+  <main id="main-content" class="container py-4">
+    <div class="card card-soft p-4">
+      <h1 class="display-6 fw-bold mb-4">Frequently Asked Questions</h1>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">How do I log a movie?</button></h2>
+          <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion"><div class="accordion-body">Go to Log Movie, search for a title, and click "Use in log form" to pre-fill the details. Then pick the date you watched it, add a rating, and optionally write a review before saving.</div></div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">How does the watchlist work?</button></h2>
+          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Search for a film on the Watchlist page and click "Add to watchlist". When you later log that film as watched, it's removed from your watchlist automatically.</div></div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">Can I see more details about a film?</button></h2>
+          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Yes. Click any film title in your watchlist, recent films, or watch history to open its detail page. You'll see the full plot, cast, director, runtime, and ratings from IMDb, Rotten Tomatoes, and Metacritic.</div></div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq4">How are my stats calculated?</button></h2>
+          <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Stats are calculated from the films you've logged. The Dashboard shows how many you've watched this month, this year, and in total, plus your average rating across all rated entries.</div></div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq5">Where is my data stored?</button></h2>
+          <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Everything is stored in your browser's local storage. Your data stays on your device, persists between visits, and is never sent to a server. No account is required.</div></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="js/nav.js"></script>
+  </body>
+</html>
